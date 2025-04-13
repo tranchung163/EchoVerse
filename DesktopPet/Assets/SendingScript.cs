@@ -83,8 +83,6 @@ public class OpenAIController : MonoBehaviour
 
         // Add the message to the list
         messages.Add(userMessage);
-        
-        textField.text = string.Format("You: {0}", userMessage.Content);
 
         // Clear the input field
         inputField.text = "";
@@ -108,7 +106,7 @@ public class OpenAIController : MonoBehaviour
         messages.Add(responseMessage);
 
         // Update the text field with the response
-        textField.text = string.Format("You: {0}\n\nBob: {1}", userMessage.Content, responseMessage.Content);
+        textField.text = responseMessage.Content;
 
         StillTalking = false;
     }
