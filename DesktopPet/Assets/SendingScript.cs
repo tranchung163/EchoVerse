@@ -17,6 +17,7 @@ public class OpenAIController : MonoBehaviour
     public TMP_InputField inputField;
     private OpenAIAPI api;
     private List<ChatMessage> messages;
+    public TypeWriter typeWriter;
     bool StillTalking = false;
 
     private bool noreponde = false;
@@ -56,13 +57,15 @@ public class OpenAIController : MonoBehaviour
     {
         messages = new List<ChatMessage>
         {
-            new ChatMessage(ChatMessageRole.System, "You a cute lil aliean")
+            new ChatMessage(ChatMessageRole.System, "Alright, so you are an aliean flower. That acts like a travel guide, and you are gonna sugguest places to go to and you have to follow a spacy theme every time you speak, like it has to do with space, also keep it short like around 10 words")
         };
         inputField.text = "";
     }
 
     public async void GetResponse()
     {
+        if(typeWriter.StillTalking) return;
+
         if (inputField.text.Length < 1 && StillTalking)
         {
             return;
@@ -106,7 +109,7 @@ public class OpenAIController : MonoBehaviour
         messages.Add(responseMessage);
 
         // Update the text field with the response
-        textField.text = responseMessage.Content;
+        typeWriter.SentText(responseMessage.Content);
 
         StillTalking = false;
     }
