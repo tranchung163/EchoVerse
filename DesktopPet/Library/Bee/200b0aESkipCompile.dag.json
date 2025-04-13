@@ -1,0 +1,599 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "Extracting script serialization layouts",
+      "Action": "\"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/AWSSDK.Core.3.7.400.61/lib/netstandard2.0/AWSSDK.Core.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Azure.Core.1.44.1/lib/netstandard2.0/Azure.Core.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Castle.Core.5.1.1/lib/netstandard2.1/Castle.Core.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/dotenv.net.3.2.1/lib/netstandard2.1/dotenv.net.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.9.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Configuration.Abstractions.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.DependencyInjection.9.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.DependencyInjection.Abstractions.9.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Http.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Http.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Logging.9.0.0/lib/netstandard2.1/Microsoft.Extensions.Logging.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Logging.Abstractions.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Options.9.0.0/lib/netstandard2.1/Microsoft.Extensions.Options.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Primitives.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Identity.Client.4.66.2/lib/netstandard2.0/Microsoft.Identity.Client.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.IdentityModel.Abstractions.6.35.0/lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Win32.SystemEvents.9.0.0/lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Serilog.4.2.0/lib/netstandard2.0/Serilog.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.ClientModel.1.1.0/lib/netstandard2.0/System.ClientModel.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.ComponentModel.Annotations.5.0.0/lib/netstandard2.1/System.ComponentModel.Annotations.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Diagnostics.DiagnosticSource.9.0.0/lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Diagnostics.EventLog.4.7.0/lib/netstandard2.0/System.Diagnostics.EventLog.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Drawing.Common.9.0.0/lib/netstandard2.0/System.Drawing.Common.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.IO.Pipelines.9.0.0/lib/netstandard2.0/System.IO.Pipelines.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Memory.Data.6.0.0/lib/netstandard2.0/System.Memory.Data.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Security.Principal.Windows.4.7.0/lib/netstandard2.0/System.Security.Principal.Windows.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Text.Encodings.Web.9.0.0/lib/netstandard2.0/System.Text.Encodings.Web.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Text.Json.9.0.0/lib/netstandard2.0/System.Text.Json.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1/System.Threading.Channels.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.Burst.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.Collections.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.Mathematics.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.PerformanceTesting.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.Unsafe.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd/net40/unity-custom/nunit.framework.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Mdb.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Pdb.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Rocks.dll\" -a=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.visualscripting@1b53f46e931b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/NetStandard/EditorExtensions\" -s=\"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/AWSSDK.Core.3.7.400.61/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Azure.Core.1.44.1/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Castle.Core.5.1.1/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/dotenv.net.3.2.1/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Bcl.AsyncInterfaces.9.0.0/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Configuration.Abstractions.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.DependencyInjection.9.0.0/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.DependencyInjection.Abstractions.9.0.0/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Http.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Logging.9.0.0/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Logging.Abstractions.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Options.9.0.0/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Extensions.Primitives.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Identity.Client.4.66.2/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.IdentityModel.Abstractions.6.35.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Microsoft.Win32.SystemEvents.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/Serilog.4.2.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.ClientModel.1.1.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.ComponentModel.Annotations.5.0.0/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Diagnostics.DiagnosticSource.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Diagnostics.EventLog.4.7.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Drawing.Common.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.IO.Pipelines.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Memory.Data.6.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Security.Principal.Windows.4.7.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Text.Encodings.Web.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Text.Json.9.0.0/lib/netstandard2.0\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/ScriptAssemblies\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.burst@7a907cf5a459\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd/net40/unity-custom\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f\" -s=\"/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/PackageCache/com.unity.visualscripting@1b53f46e931b/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
+        "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/Packages/AWSSDK.Core.3.7.400.61/lib/netstandard2.0/AWSSDK.Core.dll",
+        "Assets/Packages/Azure.Core.1.44.1/lib/netstandard2.0/Azure.Core.dll",
+        "Assets/Packages/Castle.Core.5.1.1/lib/netstandard2.1/Castle.Core.dll",
+        "Assets/Packages/dotenv.net.3.2.1/lib/netstandard2.1/dotenv.net.dll",
+        "Assets/Packages/Microsoft.Bcl.AsyncInterfaces.9.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
+        "Assets/Packages/Microsoft.Extensions.Configuration.Abstractions.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "Assets/Packages/Microsoft.Extensions.DependencyInjection.9.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "Assets/Packages/Microsoft.Extensions.DependencyInjection.Abstractions.9.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "Assets/Packages/Microsoft.Extensions.Http.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Http.dll",
+        "Assets/Packages/Microsoft.Extensions.Logging.9.0.0/lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
+        "Assets/Packages/Microsoft.Extensions.Logging.Abstractions.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "Assets/Packages/Microsoft.Extensions.Options.9.0.0/lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "Assets/Packages/Microsoft.Extensions.Primitives.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "Assets/Packages/Microsoft.Identity.Client.4.66.2/lib/netstandard2.0/Microsoft.Identity.Client.dll",
+        "Assets/Packages/Microsoft.IdentityModel.Abstractions.6.35.0/lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll",
+        "Assets/Packages/Microsoft.Win32.SystemEvents.9.0.0/lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll",
+        "Assets/Packages/Serilog.4.2.0/lib/netstandard2.0/Serilog.dll",
+        "Assets/Packages/System.ClientModel.1.1.0/lib/netstandard2.0/System.ClientModel.dll",
+        "Assets/Packages/System.ComponentModel.Annotations.5.0.0/lib/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "Assets/Packages/System.Diagnostics.DiagnosticSource.9.0.0/lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "Assets/Packages/System.Diagnostics.EventLog.4.7.0/lib/netstandard2.0/System.Diagnostics.EventLog.dll",
+        "Assets/Packages/System.Drawing.Common.9.0.0/lib/netstandard2.0/System.Drawing.Common.dll",
+        "Assets/Packages/System.IO.Pipelines.9.0.0/lib/netstandard2.0/System.IO.Pipelines.dll",
+        "Assets/Packages/System.Memory.Data.6.0.0/lib/netstandard2.0/System.Memory.Data.dll",
+        "Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "Assets/Packages/System.Security.Principal.Windows.4.7.0/lib/netstandard2.0/System.Security.Principal.Windows.dll",
+        "Assets/Packages/System.Text.Encodings.Web.9.0.0/lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "Assets/Packages/System.Text.Json.9.0.0/lib/netstandard2.0/System.Text.Json.dll",
+        "Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1/System.Threading.Channels.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll",
+        "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
+        "Library/ScriptAssemblies/Unity.Collections.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll",
+        "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll",
+        "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
+        "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll",
+        "Library/ScriptAssemblies/Unity.PerformanceTesting.dll",
+        "Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "Library/ScriptAssemblies/Unity.VisualScripting.State.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.Unsafe.dll",
+        "Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll",
+        "Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd/net40/unity-custom/nunit.framework.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Mdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Pdb.dll",
+        "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Rocks.dll",
+        "Library/PackageCache/com.unity.visualscripting@1b53f46e931b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "InputFlags": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "OutputFlags": [
+        0
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "InputFlags": [],
+      "Outputs": [],
+      "OutputFlags": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline/UnityEditor.iOS.Extensions.Xcode.dll"
+    },
+    {
+      "File": "Library/Bee/200b0aESkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/getconf"
+    },
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/Packages/AWSSDK.Core.3.7.400.61/lib/netstandard2.0/AWSSDK.Core.dll"
+    },
+    {
+      "File": "Assets/Packages/Azure.Core.1.44.1/lib/netstandard2.0/Azure.Core.dll"
+    },
+    {
+      "File": "Assets/Packages/Castle.Core.5.1.1/lib/netstandard2.1/Castle.Core.dll"
+    },
+    {
+      "File": "Assets/Packages/dotenv.net.3.2.1/lib/netstandard2.1/dotenv.net.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Bcl.AsyncInterfaces.9.0.0/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.Configuration.Abstractions.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.DependencyInjection.9.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.DependencyInjection.Abstractions.9.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.Http.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Http.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.Logging.9.0.0/lib/netstandard2.1/Microsoft.Extensions.Logging.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.Logging.Abstractions.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.Options.9.0.0/lib/netstandard2.1/Microsoft.Extensions.Options.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Extensions.Primitives.9.0.0/lib/netstandard2.0/Microsoft.Extensions.Primitives.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Identity.Client.4.66.2/lib/netstandard2.0/Microsoft.Identity.Client.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.IdentityModel.Abstractions.6.35.0/lib/netstandard2.0/Microsoft.IdentityModel.Abstractions.dll"
+    },
+    {
+      "File": "Assets/Packages/Microsoft.Win32.SystemEvents.9.0.0/lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll"
+    },
+    {
+      "File": "Assets/Packages/Newtonsoft.Json.13.0.3/lib/netstandard2.0/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Assets/Packages/Serilog.4.2.0/lib/netstandard2.0/Serilog.dll"
+    },
+    {
+      "File": "Assets/Packages/System.ClientModel.1.1.0/lib/netstandard2.0/System.ClientModel.dll"
+    },
+    {
+      "File": "Assets/Packages/System.ComponentModel.Annotations.5.0.0/lib/netstandard2.1/System.ComponentModel.Annotations.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Diagnostics.DiagnosticSource.9.0.0/lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Diagnostics.EventLog.4.7.0/lib/netstandard2.0/System.Diagnostics.EventLog.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Drawing.Common.9.0.0/lib/netstandard2.0/System.Drawing.Common.dll"
+    },
+    {
+      "File": "Assets/Packages/System.IO.Pipelines.9.0.0/lib/netstandard2.0/System.IO.Pipelines.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Memory.Data.6.0.0/lib/netstandard2.0/System.Memory.Data.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Security.Principal.Windows.4.7.0/lib/netstandard2.0/System.Security.Principal.Windows.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Text.Encodings.Web.9.0.0/lib/netstandard2.0/System.Text.Encodings.Web.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Text.Json.9.0.0/lib/netstandard2.0/System.Text.Json.dll"
+    },
+    {
+      "File": "Assets/Packages/System.Threading.Channels.8.0.0/lib/netstandard2.1/System.Threading.Channels.dll"
+    },
+    {
+      "File": "Library/Bee/200b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.burst@7a907cf5a459/Unity.Burst.Unsafe.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.collections@56bff8827a7e/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@60ef35ffd3cd/net40/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Mdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Pdb.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.nuget.mono-cecil@d6f9955a5d5f/Mono.Cecil.Rocks.dll"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.visualscripting@1b53f46e931b/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Collections.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.ForUI.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InputSystem.TestFramework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Multiplayer.Center.Common.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.PerformanceTesting.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Rendering.LightTransport.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Shared.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.GPUDriven.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.2D.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Core.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.VisualScripting.State.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb",
+    ".json",
+    ".csproj"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/200b0aESkipCompile.dag.json",
+  "PayloadsFile": "/Users/chungtran/Documents/GitHub/FullyHack2025/DesktopPet/Library/Bee/200b0aESkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}
