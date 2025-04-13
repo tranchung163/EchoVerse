@@ -18,14 +18,14 @@ public class TypeWriter : MonoBehaviour
 
         // Start typing the text
         StartCoroutine(TypeText(_text));
-        animator.SetBool("Talking", true);
+        if (animator != null) animator.SetBool("Talking", true);
     }
 
     private IEnumerator TypeText(string _text)
     {
-        audioSource.Play();
-        audioSource.volume = UnityEngine.Random.Range(0.9f, 1.2f);
-        audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.2f);
+        if (audioSource != null) audioSource.Play();
+        if (audioSource != null) audioSource.volume = UnityEngine.Random.Range(0.9f, 1.2f);
+        if (audioSource != null) audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.2f);
         foreach (char letter in _text)
         {
             textBox.text += letter;
@@ -33,7 +33,7 @@ public class TypeWriter : MonoBehaviour
         }
         StillTalking = false;
 
-        animator.SetBool("Talking", false);
-        audioSource.Stop();
+        if (animator != null) animator.SetBool("Talking", false);
+        if (audioSource != null) audioSource.Stop();
     }
 }
