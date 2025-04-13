@@ -6,6 +6,7 @@ public class OnPickup : MonoBehaviour
 {
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private UnityEvent OnBlueberry;
+    [SerializeField] AudioSource audioSource;
 
     private InputAction touchActionPosition;
     private InputAction touchActionPressed;
@@ -69,13 +70,10 @@ public class OnPickup : MonoBehaviour
 
             if (hitObject.CompareTag("Blueberry"))
             {
+                if (audioSource != null) audioSource.Play();
                 OnBlueberry.Invoke();
                 Destroy(hitObject);
             }
         }
-    }
-
-    public void DestroyBlue()
-    {
     }
 }
