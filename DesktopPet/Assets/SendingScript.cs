@@ -26,31 +26,8 @@ public class OpenAIController : MonoBehaviour
 
     void Start()
     {
-
-        string relativePath = "../Key.env";
-        string fullPath = Path.GetFullPath(relativePath);
-
-        Debug.Log($"[ENV] Attempting to load: {fullPath}");
-
-        if (!File.Exists(fullPath))
-        {
-            Debug.LogError($"[ENV] File does NOT exist at: {fullPath}");
-            return;
-        }
-
-        var options = new DotEnvOptions(envFilePaths: new[] { "../Key.env" });
-        DotEnv.Load(options);
-
-        string apiKey = Environment.GetEnvironmentVariable("OpenAI");
-
-        if (string.IsNullOrEmpty(apiKey))
-        {
-            Debug.LogError("API key not found. Make sure it's defined in your key.env file.");
-            return;
-        }
-
         // Pass it to OpenAIAPI
-        api = new OpenAIAPI(apiKey);
+        api = new OpenAIAPI("");
 
         StartConversation();
     }
