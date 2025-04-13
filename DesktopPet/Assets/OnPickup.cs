@@ -59,18 +59,23 @@ public class OnPickup : MonoBehaviour
         Vector2 screenPosition = touchActionPosition.ReadValue<Vector2>();
         Ray ray = Camera.main.ScreenPointToRay(screenPosition);
 
-        if (Physics.Raycast(ray, out RaycastHit hit))
+
+        Debug.DrawRay(ray.origin, ray.direction * 100f, Color.blue, 1f);
+
+        if (Physics.Raycast(ray.origin, ray.direction, out RaycastHit hit))
         {
             GameObject hitObject = hit.collider.gameObject;
+            Debug.Log(hitObject.name);
+
             if (hitObject.CompareTag("Blueberry"))
             {
                 OnBlueberry.Invoke();
+                Destroy(hitObject);
             }
         }
     }
 
-    public void PrintBlue()
+    public void DestroyBlue()
     {
-        Debug.Log("Blue");
     }
 }
