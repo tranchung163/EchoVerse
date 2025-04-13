@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Events;
 using dotenv.net;
 using dotenv.net.Utilities;
 
@@ -18,6 +19,7 @@ public class OpenAIController : MonoBehaviour
     private OpenAIAPI api;
     private List<ChatMessage> messages;
     public TypeWriter typeWriter;
+    public UnityEvent OnFinished;
     bool StillTalking = false;
 
     private bool noreponde = false;
@@ -112,5 +114,7 @@ public class OpenAIController : MonoBehaviour
         typeWriter.SentText(responseMessage.Content);
 
         StillTalking = false;
+        
+        OnFinished.Invoke();
     }
 }

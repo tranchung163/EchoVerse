@@ -22,14 +22,6 @@ public class ExperienceManager : MonoBehaviour
         UpdateLevel();
     }
 
-    void Update() 
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            AddExperience(5);
-        }
-    }
-
     public void AddExperience(int amount)
     {
         totalExperience += amount;
