@@ -18,12 +18,14 @@ public class TypeWriter : MonoBehaviour
 
         // Start typing the text
         StartCoroutine(TypeText(_text));
-        if (animator != null) animator.SetBool("Talking", true);
+        animator.SetBool("Talking", true);
     }
 
     private IEnumerator TypeText(string _text)
     {
-        if (audioSource != null) audioSource.Play();
+        audioSource.Play();
+        audioSource.volume = UnityEngine.Random.Range(0.9f, 1.2f);
+        audioSource.pitch = UnityEngine.Random.Range(0.9f, 1.2f);
         foreach (char letter in _text)
         {
             textBox.text += letter;
@@ -31,8 +33,7 @@ public class TypeWriter : MonoBehaviour
         }
         StillTalking = false;
 
-        if (animator != null) animator.SetBool("Talking", false);
-        if (audioSource != null) audioSource.Stop();
+        animator.SetBool("Talking", false);
+        audioSource.Stop();
     }
-
 }
