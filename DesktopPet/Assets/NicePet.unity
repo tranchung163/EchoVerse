@@ -836,7 +836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textField: {fileID: 1993510053}
-  inputField: {fileID: 0}
+  inputField: {fileID: 1726698016}
   typeWriter: {fileID: 1427612708}
 --- !u!4 &1427612707
 Transform:
@@ -1236,6 +1236,17 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1726698016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7528777154405246620, guid: 087730dd81fc6d048b229357e7f526de, type: 3}
+  m_PrefabInstance: {fileID: 549105800}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2da0c512f12947e489f739169773d7ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1801601843
 GameObject:
   m_ObjectHideFlags: 0
