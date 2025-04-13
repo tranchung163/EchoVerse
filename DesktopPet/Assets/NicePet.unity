@@ -1562,7 +1562,6 @@ GameObject:
   - component: {fileID: 1427612708}
   - component: {fileID: 1427612709}
   - component: {fileID: 1427612710}
-  - component: {fileID: 1427612712}
   - component: {fileID: 1427612711}
   m_Layer: 0
   m_Name: ControlScript
@@ -1774,46 +1773,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &1427612712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427612705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ae2eeb5ef2d53149b0d7129ba568d25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerInput: {fileID: 1427612711}
-  OnBlueberry:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1427612712}
-        m_TargetAssemblyTypeName: OnPickup, Assembly-CSharp
-        m_MethodName: PrintBlue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1821520412}
-        m_TargetAssemblyTypeName: ExperienceManager, Assembly-CSharp
-        m_MethodName: AddExperience
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1461908641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1873,6 +1832,7 @@ GameObject:
   - component: {fileID: 1537583782}
   - component: {fileID: 1537583781}
   - component: {fileID: 1537583780}
+  - component: {fileID: 1537583785}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2097,6 +2057,46 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1537583785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537583778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ae2eeb5ef2d53149b0d7129ba568d25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInput: {fileID: 1427612711}
+  OnBlueberry:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1537583785}
+        m_TargetAssemblyTypeName: OnPickup, Assembly-CSharp
+        m_MethodName: DestroyBlue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1821520412}
+        m_TargetAssemblyTypeName: ExperienceManager, Assembly-CSharp
+        m_MethodName: AddExperience
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1648456598
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3648,37 +3648,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7042315540325902164, guid: 985c454ca4b173943886004bcf17877e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6658352963622457390}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 985c454ca4b173943886004bcf17877e, type: 3}
 --- !u!1 &6658352963622457386 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7042315540325902164, guid: 985c454ca4b173943886004bcf17877e, type: 3}
   m_PrefabInstance: {fileID: 6658352963622457385}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &6658352963622457390
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6658352963622457386}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.023111135, y: 0.0036396014, z: 0.023893155}
-  m_Center: {x: -0.0110209435, y: 0.002015452, z: -0.0115898065}
 --- !u!1 &6984379992549214292
 GameObject:
   m_ObjectHideFlags: 0
