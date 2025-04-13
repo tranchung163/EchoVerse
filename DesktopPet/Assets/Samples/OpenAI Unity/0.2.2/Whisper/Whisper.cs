@@ -1,14 +1,16 @@
 ﻿using OpenAI;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace Samples.Whisper
 {
     public class Whisper : MonoBehaviour
     {
+        public OpenAIController openAIController;
         [SerializeField] private Button recordButton;
         [SerializeField] private Image progressBar;
-        [SerializeField] private Text message;
+        [SerializeField] private TMP_InputField message;
         private readonly string fileName = "output.wav";
         private readonly int duration = 5;
         
@@ -59,6 +61,7 @@ namespace Samples.Whisper
 
             progressBar.fillAmount = 0;
             message.text = res.Text;
+            openAIController.GetResponse();
             recordButton.enabled = true;
         }
 
