@@ -1,4 +1,4 @@
-# PetVerse
+#  EchoVerse
 EchoVerse 🌌 — Your AI Buddy in Augmented Reality
 EchoVerse brings your personal AI companion to life using Augmented Reality! Whether you're looking for advice, a brainstorming partner, or just someone to talk to — your AI buddy is ready to chat, right there beside you.
 
